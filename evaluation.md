@@ -28,4 +28,8 @@
 
 ### 8 - Afficher la liste des bières classée par couleur. (Afficher id et nom de bière, nom de la couleur)
 
+- SELECT a.id_article, a.nom_article, c.nom_couleur FROM article a JOIN couleur c ON a.id_couleur = c.id_couleur ORDER BY c.nom_couleur
+
+### Afficher la liste des bières n’ayant pas de couleur. (Afficher l’id et le nom)
+
 - 
